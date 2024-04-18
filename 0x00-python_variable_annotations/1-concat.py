@@ -4,4 +4,4 @@
 
 def concat(str1: str, str2: str) -> str:
     ''' Concatanate two given strings '''
-    return a + b
+    return str(a + b)
