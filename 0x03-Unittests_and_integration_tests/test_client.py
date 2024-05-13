@@ -32,7 +32,7 @@ class TestGithubOrgClient(unittest.TestCase):
         """Tests the _public_repos_ur method"""
         with patch(
                 "client.GithubOrgClient.org",
-                new_callable = PropertyMock,
+                new_callable=PropertyMock,
                 ) as org_mock:
             org_mock.return_value = {
                 'repos_url': "https://api.github.com/users/google/repos",
