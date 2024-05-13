@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 ''' Test the client file '''
 from client import GithubOrgClient
 import unittest
